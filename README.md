@@ -1,4 +1,4 @@
-# post_comment_downloader
+# Reddit saved Post and Comment downloader
 This Python script allows you to download saved posts and comments from Reddit.
 
 ## Setup Instructions
@@ -28,3 +28,5 @@ To download all saved comments, run:
 
 Please note that downloading can take some time,
 at least 2 seconds per post and 6 seconds per comment due to Reddit's rate limits.
+
+I will maybe add a json to txt converter so the post-body (text) can made into a text file.
