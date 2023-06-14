@@ -6,7 +6,7 @@ import praw
 from prawcore.exceptions import Forbidden
 
 counter = 1
-comment_file_name = "input/saved_comments_test.csv"
+comment_file_name = "input/saved_comments.csv"
 
 # Read the configuration file
 config = configparser.ConfigParser()
@@ -105,7 +105,7 @@ def comment_to_dict(comment):
 with open(comment_file_name, 'r') as f:
     reader = csv.reader(f)
     line_counter = count_lines(comment_file_name)
-    print(f"\nThere are {line_counter} lines in the file\n\n")
+    print(f"\nThere are {line_counter} comments to save\n\n")
     next(reader)  # Skip header
     for row in reader:
         # Save to file if there are more than 50 saved comments

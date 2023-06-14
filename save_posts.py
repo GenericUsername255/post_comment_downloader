@@ -5,7 +5,7 @@ from prawcore.exceptions import Forbidden, NotFound
 import configparser
 
 
-saved_posts_file = "input/saved_posts_test_2.csv"
+saved_posts_file = "input/saved_posts_test.csv"
 not_saved = []
 counter = 1
 # Read the configuration file
