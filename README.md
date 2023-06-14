@@ -1,4 +1,4 @@
-# post_comment_downloader
+# Reddit saved post and comment downloader
 This Python script allows you to download saved posts and comments from Reddit.
 
 ## Setup Instructions
