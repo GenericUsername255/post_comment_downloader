@@ -69,7 +69,7 @@ def count_lines(filename="saved_comments.csv"):
     with open(filename, 'r') as f:
         reader = csv.reader(f)
         row_count = sum(1 for row in reader)
-        return row_count
+        return row_count-1
 
 
 def comment_to_dict(comment):
