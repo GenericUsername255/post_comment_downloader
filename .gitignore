@@ -2,3 +2,4 @@
 *.json
 settings.ini
 test.py
+*test.py
